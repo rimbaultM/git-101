@@ -1,0 +1,60 @@
+[1mdiff --git a/Talineau/image/logonb.jpg b/Talineau/image/logonb.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b248d2a[m
+Binary files /dev/null and b/Talineau/image/logonb.jpg differ
+[1mdiff --git a/Talineau/index.html b/Talineau/index.html[m
+[1mindex 30c5af7..e3a0c62 100644[m
+[1m--- a/Talineau/index.html[m
+[1m+++ b/Talineau/index.html[m
+[36m@@ -17,7 +17,7 @@[m
+ <body>[m
+ [m
+ 	<nav class="navbar navbar-expand-lg navbar-light bg-light">[m
+[31m-  <a class="navbar-brand" href="#">Talineau</a>[m
+[32m+[m[32m  <img class="navbar-brand" src="image/logonb.jpg">[m
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">[m
+     <span class="navbar-toggler-icon"></span>[m
+   </button>[m
+[36m@@ -40,8 +40,8 @@[m
+       [m
+     </ul>[m
+     <form class="form-inline my-2 my-lg-0">[m
+[31m-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">[m
+[31m-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>[m
+[32m+[m[32m      <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">[m
+[32m+[m[32m      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>[m
+     </form>[m
+   </div>[m
+ </nav>[m
+[1mdiff --git a/Talineau/styles.css b/Talineau/styles.css[m
+[1mindex 6ec85c9..1406694 100644[m
+[1m--- a/Talineau/styles.css[m
+[1m+++ b/Talineau/styles.css[m
+[36m@@ -1,9 +1,24 @@[m
+ .bg-light {[m
+     background-color: #90673a !important;[m
+ }[m
+[32m+[m[32m.btn-outline-success{[m
+[32m+[m	[32mcolor: white;[m
+[32m+[m	[32mborder-color: white;[m
+[32m+[m[32m}[m
+[32m+[m[32m.btn-outline-success:hover{[m
+[32m+[m	[32mbackground-color: grey;[m
+[32m+[m	[32mborder-color: white;[m
+[32m+[m[32m}[m
+ nav a {[m
+[31m-	color: white !important;[m
+[32m+[m	[32mcolor: #cccaca !important;[m
+[32m+[m	[32mfont-family: Helvetica;[m
+[32m+[m	[32mfont-weight: bold;[m
+ }[m
+ nav a:hover{[m
+[31m-	color: #bbbbbb !important;[m
+[32m+[m	[32mcolor: white !important;[m
+[32m+[m	[32mbox-shadow: 2px 2px 4px white;[m
+[32m+[m[32m}[m
+[32m+[m[32mnav img {[m
+[32m+[m	[32mborder-radius: 10px;[m
+[32m+[m	[32mwidth: 200px;[m
+ }[m
+\ No newline at end of file[m
