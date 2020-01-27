@@ -1,0 +1,19 @@
+body{
+	margin:0;
+	font-family: Helvetica;
+
+}
+
+img {
+	
+	width: 100px;
+	height: auto;
+
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
