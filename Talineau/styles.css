@@ -22,3 +22,8 @@ nav img {
 	border-radius: 10px;
 	width: 200px;
 }
+
+.carousel-inner img {
+	height: 24vw !important;
+	width: 100vw !important;
+}
